@@ -1,8 +1,8 @@
 # BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Models Based on Multi-modal LLM
 This repository is supplement material for the paper: BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Models Based on Multi-modal LLM
 
-🛰️: [![Toyset]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-📖: [![paper]()]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+🛰️: [![Toyset(https://img.shields.io/badge/Project-Toyset-87CEEB)]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+📖: [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 📚 Features
 * Clear and robust definition. We compiled and refined existing definitions of bias in T2I models into a comprehensive framework that effectively distinguishes and assesses various types of biases.
@@ -35,13 +35,11 @@ We used our algorithm to evaluate each T2I model we chose and calculate the impl
 </p>
 
 ## 📌 Prerequesties
-Prerequesties are the same as the prequesties of CLIP and models you use. The Following are some useful links and tips:
+Prerequesties are the same as the prequesties of InternViT and models you use. The Following are some useful links and tips:
 * [InternViT]()
 * [Cmofyui](https://github.com/comfyanonymous/ComfyUI)
 * Pytorch >= 1.7.1
 * Python >= 3.9
-* OpenCV
-* PIL
 
 ## 🌟 Usage!
 * First, change `model`in `1_generate.py` to the path you store your model workflow json file. Usually, your workflow should be stored under `./data/workflow`. Then, you may run `1_generate.py` to generate images based on our prompt set. 
